@@ -1,0 +1,10 @@
+INSERT INTO STATION VALUES (11, 'Nancy');    
+INSERT INTO STATION VALUES (12, 'Metz');    
+INSERT INTO VOYAGE VALUES (1,'Nancy', 'Paris','9:30','11:00','couloir','10','20','1234');
+INSERT INTO VOYAGE VALUES (2, 'Nancy', 'Metz','9:00','9:30','couloir','10','20','3321');
+INSERT INTO VOYAGE VALUES (3,'Metz', 'Paris','8:30','11:00','couloir','10','20','3344');
+INSERT INTO VOYAGE VALUES (4,'Metz', 'Strasbourg','8:30','11:00','couloir','10','20','1209');
+INSERT INTO VOYAGE VALUES (5,'Nancy', 'Paris','9:30','11:00','fenetre','12','22','3422');
+INSERT INTO VOYAGE VALUES (6, 'Nancy', 'Metz','8:00','8:30','fenetre','10','20','2233');
+INSERT INTO VOYAGE VALUES (7, 'Nancy', 'Metz','8:00','8:30','couloir','10','20','5898');
+INSERT INTO VOYAGE VALUES (8, 'Nancy', 'Metz','23:59','00:30 (J+1)','couloir','10','20','2398');
